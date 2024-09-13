@@ -6,7 +6,7 @@ const weatherLoading = async (countryName) => {
 
 // display data
 const displayData = (data) => {
-    console.log(data);
+    // console.log(data);
     const currentTempContainer = document.getElementById('tempContainer');
     currentTempContainer.textContent = '';
     // console.log(currentTempContainer);
